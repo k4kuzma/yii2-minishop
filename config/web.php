@@ -38,14 +38,28 @@ $config = [
             ],
         ],
         'db' => require(__DIR__ . '/db.php'),
-        /*
+        
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
+                [
+                    'pattern'   => '<controller:(category|vendor|product)>/<action:(update|delete|view)>/<id:\d+>',
+                    'route'     => '<controller>/<action>',
+                ],
+                [
+                    'pattern'   => '<controller:(category|vendor|product)>/<page:\d+>',
+                    'route'     => '<controller>/index',
+                    'defaults'  => [
+                        'page' => 1
+                    ],
+                ],
+                [
+                    'pattern' => 'api/<action>',
+                    'route' => 'api/<action>',
+                ],
             ],
         ],
-        */
     ],
     'params' => $params,
 ];

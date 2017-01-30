@@ -4,8 +4,51 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "5438861ad666f7367e7d9ae0e539b7d0",
+    "content-hash": "74fa4498456b411bafdc7ffab602da2e",
     "packages": [
+        {
+            "name": "2amigos/yii2-multi-select-widget",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/2amigos/yii2-multi-select-widget.git",
+                "reference": "8e3d743ea48db77a78778e09c4ce0d20825a69cc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/2amigos/yii2-multi-select-widget/zipball/8e3d743ea48db77a78778e09c4ce0d20825a69cc",
+                "reference": "8e3d743ea48db77a78778e09c4ce0d20825a69cc",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "dosamigos\\multiselect\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Antonio Ramirez",
+                    "email": "ramirez.cobos@gmail.com",
+                    "homepage": "http://www.ramirezcobos.com"
+                }
+            ],
+            "description": "Multiselect Bootstrap widget for Yii2.",
+            "keywords": [
+                "extension",
+                "multiselect",
+                "widget",
+                "yii"
+            ],
+            "time": "2014-05-10T18:32:51+00:00"
+        },
         {
             "name": "bower-asset/bootstrap",
             "version": "v3.3.7",
@@ -1012,16 +1055,16 @@
         },
         {
             "name": "myclabs/deep-copy",
-            "version": "1.5.5",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/myclabs/DeepCopy.git",
-                "reference": "399c1f9781e222f6eb6cc238796f5200d1b7f108"
+                "reference": "5a5a9fc8025a08d8919be87d6884d5a92520cefe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/399c1f9781e222f6eb6cc238796f5200d1b7f108",
-                "reference": "399c1f9781e222f6eb6cc238796f5200d1b7f108",
+                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/5a5a9fc8025a08d8919be87d6884d5a92520cefe",
+                "reference": "5a5a9fc8025a08d8919be87d6884d5a92520cefe",
                 "shasum": ""
             },
             "require": {
@@ -1050,7 +1093,7 @@
                 "object",
                 "object graph"
             ],
-            "time": "2016-10-31T17:19:45+00:00"
+            "time": "2017-01-26T22:05:40+00:00"
         },
         {
             "name": "phpdocumentor/reflection-common",
@@ -1545,16 +1588,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "5.7.7",
+            "version": "5.7.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "e52551bbc229c6cee26c7a00deef80c2108c5b15"
+                "reference": "69f832b87c731d5cacad7f91948778fe98335fdd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/e52551bbc229c6cee26c7a00deef80c2108c5b15",
-                "reference": "e52551bbc229c6cee26c7a00deef80c2108c5b15",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/69f832b87c731d5cacad7f91948778fe98335fdd",
+                "reference": "69f832b87c731d5cacad7f91948778fe98335fdd",
                 "shasum": ""
             },
             "require": {
@@ -1623,7 +1666,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2017-01-25T19:19:41+00:00"
+            "time": "2017-01-28T06:14:33+00:00"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -1828,16 +1871,16 @@
         },
         {
             "name": "sebastian/comparator",
-            "version": "1.2.2",
+            "version": "1.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/comparator.git",
-                "reference": "6a1ed12e8b2409076ab22e3897126211ff8b1f7f"
+                "reference": "2b7424b55f5047b47ac6e5ccb20b2aea4011d9be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/6a1ed12e8b2409076ab22e3897126211ff8b1f7f",
-                "reference": "6a1ed12e8b2409076ab22e3897126211ff8b1f7f",
+                "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/2b7424b55f5047b47ac6e5ccb20b2aea4011d9be",
+                "reference": "2b7424b55f5047b47ac6e5ccb20b2aea4011d9be",
                 "shasum": ""
             },
             "require": {
@@ -1888,7 +1931,7 @@
                 "compare",
                 "equality"
             ],
-            "time": "2016-11-19T09:18:40+00:00"
+            "time": "2017-01-29T09:50:25+00:00"
         },
         {
             "name": "sebastian/diff",
