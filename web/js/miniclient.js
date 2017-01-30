@@ -10,6 +10,7 @@ $(function(){
     showMenu();
     showContentList();
     $('.btn-search').on('click', function(){
+        $currentPage = 1;
         showContentList();
     });
 
